@@ -22,10 +22,11 @@ export default {
 }
 
 /*
-default colors:"
-primary: 3C5186
-secondary: 9B72AA
-terciary: C6B4CE
-quarty: FFF5DE
-"
+default colors:
+primary: #3C5186
+secondary: #9B72AA
+tertiary: #C6B4CE
+fourth: #FFF5DE
+hsl(204,23.8%,95.9%)
+
 */
