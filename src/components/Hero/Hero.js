@@ -12,13 +12,11 @@ const Hero = () => (
         Meu nome é Israel
       </SectionTitle>
       <SectionText>
-      Trabalho como desenvolvedor desde 2007. 
-      Sou formado em <strong>Marketing e Sistemas de Informação</strong>, 
-      apaixonado por tecnologia desde criança. 
-      Acredito que a tecnologia melhora o mundo e nos faz evoluir como sociedade 
-      e que com bastante trabalho e fé tudo é possível!.
+      Desenvolvedor desde 2007 <br />
+      Formado em <strong>Marketing e Sistemas de Informação</strong> <br />
+      Ajudo em projetos Open Source e em Ongs
       </SectionText>
-      <Button onClick={()=> window.location = 'https://www.google.com.br'}>Download CV</Button>
+      <Button onClick={()=> window.location = 'https://github.com/israelcena/mynewportfolio/raw/main/Israel%20Maicena%20Neves.pdf'}>Download CV</Button>
     </LeftSection>
   </Section>
 );
