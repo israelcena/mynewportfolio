@@ -14,7 +14,7 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="4rem" />
+        <DiReact size="6rem" />
         <ListContainer>
           <ListTitle>FrontEnd</ListTitle>
           <ListParagraph>
@@ -23,20 +23,20 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiNodejs size="4rem" />
+        <DiNodejs size="6rem" />
         <ListContainer>
           <ListTitle>BackEnd</ListTitle>
           <ListParagraph>
-            Seguindo a stack do javascript, Node é a minha liguagem backend favorita.
+            Seguindo a stack do javascript, Node é a minha linguagem backend favorita.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiIllustrator size="4rem" />
+        <DiIllustrator size="6rem" />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Protipação de interface e experência do usuário é também umas das minhas skils.
+            Prototipação de interface e experiência do usuário é também umas das minhas skills.
           </ListParagraph>
         </ListContainer>
       </ListItem>
