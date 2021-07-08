@@ -61,9 +61,6 @@ export const Img = styled.img`
 `
 export const Span = styled.span`
   font-size: 1.8rem;
-  &:hover {
-    color: black;
-  }
 `;
 
 // Navigation Links
