@@ -97,11 +97,11 @@ export const ExternalLinks = styled.a`
 color:hsl(204,23.8%,95.9%);
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #945DD6;
+background: #5222D0;
 border-radius: 15px;
-transition: background ease-in .2s;
+transition: all ease-in .2s;
 &:hover{
-  background: blueviolet;
+  filter: brightness(1.2);
 }
 `;
 
