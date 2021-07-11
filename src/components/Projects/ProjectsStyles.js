@@ -4,7 +4,6 @@ export const Img = styled.img`
   width:100%;
   height:100%;
   object-fit: cover;
-  overflow: hidden;
   margin-bottom: 2rem;
 `;
 
@@ -28,6 +27,7 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  overflow: hidden;
   background-color: hsl(205.1,100%,36.1%);
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
