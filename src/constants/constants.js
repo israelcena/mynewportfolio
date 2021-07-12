@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['HTML5', 'CSS3', 'SCSS', 'FlexBox'],
     source: 'https://github.com/israelcena/trillo',
-    visit: 'https://musing-lovelace-93fb14.netlify.app',
+    visit: 'https://www.trillo.israelcena.com.br/',
     id: 1,
   },
   {
