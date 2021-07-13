@@ -80,7 +80,7 @@ export const CardInfo = styled.p`
   text-align: justify;
   margin-bottom: 2rem;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding: .3rem 2rem;
   }
 `;
 
@@ -109,9 +109,16 @@ export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
+@media ${(props) => props.theme.breakpoints.sm} {
+  flex-wrap: wrap;
+}
 `;
 
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+@media ${(props) => props.theme.breakpoints.sm} {
+  font-size: 1.3rem;
+  padding-bottom: .5rem;
+}
 `;
