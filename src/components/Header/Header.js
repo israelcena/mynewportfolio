@@ -20,6 +20,11 @@ const Header = () => (
       </Div1>
       <Div2>
         <li>
+          <a target="_blank" href="http://blog.israelcena.com.br/"> 
+          <NavLink>Blog</NavLink>
+          </a> 
+        </li>
+        <li>
           <Link href="#projects"> 
           <NavLink>Projetos</NavLink>
           </Link> 
