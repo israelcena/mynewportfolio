@@ -45,10 +45,10 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>Sobre mim</SectionTitle>
-      <SectionText>Meu nome é Israel e trabalho como desenvolvedor desde 2011 (na época eu era o ‘menino da informática).
-        Também sou formado em Marketing, assim sou um profissional 100% especializado em desenvolvimento de produtos.
-        Sou uma pessoa apaixonada por tecnologia desde pequeno. Acredito que com bastante trabalho e fé tudo pode ser possível.
-        Atualmente trabalho como Freelancer, escrevo artigos e dicas aqui no meu blog.
+      <SectionText>Meu nome é Israel e trabalho como desenvolvedor desde 2007 (na época eu era o ‘menino da informática).
+        Sou formado em Marketing sendo assim sou um profissional 100% especializado em desenvolvimento de produtos e soluções.
+        Sou uma pessoa apaixonada por tecnologia desde pequeno. Acredito que com bastante trabalho e fém, tudo pode ser possível.
+        Atualmente trabalho como Freelancer, faço trabalho voluntário, escrevo artigos e dicas no meu blog.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
