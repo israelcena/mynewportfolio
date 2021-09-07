@@ -31,6 +31,7 @@ export const BlogCard = styled.div`
   background-color: hsl(205.1,100%,36.1%);
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    margin-bottom: 2rem;
   }
 `;
 
