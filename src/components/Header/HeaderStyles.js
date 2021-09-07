@@ -30,9 +30,6 @@ export const Div1 = styled.div`
 
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 1 / 5;
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 3 / 2 / 3 / 5;
   }
@@ -60,17 +57,22 @@ export const Span = styled.span`
 `;
 
 // Navigation Links
+export const UlNav = styled.ul`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10rem;
+  `;
+  
 export const NavLink = styled.a`
   font-size: 2rem;
-  line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
-  transition: 0.4s ease;
+  transition: all 0.3s ease-in-out;
   
   &:hover {
-    color: #fff;
-    opacity: 1;
     cursor: pointer;
-    border-bottom: 3px ridge #FFF5DE;
+    color: white;
+    font-size: 2.1rem;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
@@ -122,7 +124,6 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
     width: 15px;
   }
 `;
-
 
 // Social Icons 
 

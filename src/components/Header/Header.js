@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai';
-import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons, Img } from './HeaderStyles';
+import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons, Img, UlNav } from './HeaderStyles';
 import { Images } from '../../constants/constants';
 
 const Header = () => (
@@ -19,6 +19,7 @@ const Header = () => (
         </Link>
       </Div1>
       <Div2>
+        <UlNav>
         <li>
           <a target="_blank" href="http://blog.israelcena.com.br/"> 
           <NavLink>Blog</NavLink>
@@ -39,6 +40,7 @@ const Header = () => (
           <NavLink>Sobre</NavLink>
           </Link>
         </li>
+        </UlNav>
       </Div2>
       <Div3>
         <SocialIcons target="_blank" href="https://github.com/israelcena">
