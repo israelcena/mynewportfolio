@@ -14,7 +14,7 @@ export const Container = styled.div`
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
+    grid-row-gap: 1.5rem;
     margin-bottom: -1rem;
   }
 `;
@@ -24,7 +24,13 @@ export const Div1 = styled.div`
   display: flex;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 4;
+    grid-area: 1 / 1 / 2 / 6;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80vw;
+    transform: translateX(-50%);
+    justify-content: center !important;
   }
 `;
 
@@ -51,6 +57,9 @@ export const Img = styled.img`
   border-radius: 50%;
   object-fit: contain;
   margin-right: 1rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 30%;
+  }
 `
 export const Span = styled.span`
   font-size: 1.8rem;
