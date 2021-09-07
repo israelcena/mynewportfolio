@@ -38,6 +38,7 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 1 / 5;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 3 / 2 / 3 / 5;
+    margin-bottom: 1rem;
   }
 `;
 
@@ -48,6 +49,7 @@ export const Div3 = styled.div`
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
+    margin-top: 2rem;
     grid-area: 2 / 1 / 2 / 6;
   }
 `;
