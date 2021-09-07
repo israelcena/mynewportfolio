@@ -9,7 +9,7 @@ const Header = () => (
     <Container>
       <Div1>
         <Link href='/'>
-          <a style={{ display: "flex", alignItems: "center", justifyContent: "start", color: "white", marginBottom: "20px" }}>
+          <a style={{ display: "flex", alignItems: "center", justifyContent: "start", color: "white" }}>
             <Img src={Images[0].image}/>
             <div>
               <Span>Israel Cena</Span>
