@@ -87,7 +87,6 @@ export const Slogan = styled.p`
 	letter-spacing: 0.02em;
 	font-size: 18px;
 	line-height: 30px;
-	padding: 1rem;
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
