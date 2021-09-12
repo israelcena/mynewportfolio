@@ -90,7 +90,6 @@ export const UlNav = styled.ul`
     & li {
       margin: 0.5rem;
       padding: 1rem;
-      background-color: #3498db;
       border-radius: 0.7rem;
     }
   }
@@ -98,7 +97,7 @@ export const UlNav = styled.ul`
     flex-wrap: wrap;
     & li {
       padding: 0.6rem !important;
-
+      background-color: #3498db;
       & a {
         font-size: 1.35rem;
       }
