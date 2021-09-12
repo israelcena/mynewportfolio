@@ -17,26 +17,28 @@ export const Container = styled.div`
     grid-column-gap: 0.5rem;
     grid-row-gap: 1.5rem;
     margin-bottom: -1rem;
+    padding-top: 4rem;
   }
 `
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 1 / 2;
-  display: flex;
-  align-content: center;
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 1 / 1 / 1 / 6;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 6;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 80vw;
-    transform: translateX(-50%);
-    justify-content: center !important;
+    & a {
+      align-self: center;
+    }
   }
 `
 
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 1 / 5;
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 3 / 2 / 3 / 5;
+    margin: 1rem;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 3 / 2 / 3 / 5;
     margin-bottom: 1rem;
@@ -48,6 +50,11 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media ${(props) => props.theme.breakpoints.md} {
+    align-items: center;
+    margin-top: 3rem;
+    grid-area: 2 / 2 / 2 / 5;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     margin-top: 3rem;
@@ -60,6 +67,9 @@ export const Img = styled.img`
   border-radius: 50%;
   object-fit: contain;
   margin-right: 1rem;
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 15%;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 30%;
   }
@@ -74,6 +84,21 @@ export const UlNav = styled.ul`
   justify-content: space-around;
   align-items: center;
   padding: 0 10rem;
+  flex-wrap: nowrap;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    & li {
+      margin: 0.5rem;
+      padding: 1rem;
+      background-color: #3498db;
+      border-radius: 0.7rem;
+    }
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    flex-wrap: wrap;
+    & li {
+    }
+  }
 `
 
 export const NavLink = styled.a`

@@ -29,7 +29,7 @@ const Header = () => (
             style={{
               display: 'flex',
               alignItems: 'center',
-              justifyContent: 'start',
+              justifyContent: 'center',
               color: 'white'
             }}
           >
