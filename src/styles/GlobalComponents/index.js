@@ -41,6 +41,7 @@ export const SectionTitle = styled.h2`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
+  padding-bottom: 0.6rem !important;
   padding: ${(props) => (props.main ? '58px 0 16px' : '0')};
 
   @media ${(props) => props.theme.breakpoints.md} {
