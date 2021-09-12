@@ -1,13 +1,24 @@
-import React from 'react';
-import { DiIllustrator, DiReact, DiNodejs } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from 'react'
+import { DiIllustrator, DiReact, DiNodejs } from 'react-icons/di'
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle
+} from '../../styles/GlobalComponents'
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle
+} from './TechnologiesStyles'
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <br/>
-    <br/>
+    <br />
+    <br />
     <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
       Tecnologias que são as minhas paixões no desenvolvimento Web.
@@ -18,7 +29,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>FrontEnd</ListTitle>
           <ListParagraph>
-            Atualmente venho focando em React.js, trabalhando em conjunto com NextJS.
+            Atualmente venho focando em React, trabalhando em conjunto com
+            NextJS.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,7 +39,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>BackEnd</ListTitle>
           <ListParagraph>
-            Seguindo a stack do javascript, Node é a minha linguagem backend favorita.
+            Seguindo a stack do javascript, Node é a minha linguagem backend
+            favorita.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -36,12 +49,13 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Prototipação de interface e experiência do usuário é também umas das minhas skills.
+            Prototipação de interface e experiência do usuário é também umas das
+            minhas skills.
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
   </Section>
-);
+)
 
-export default Technologies;
+export default Technologies
