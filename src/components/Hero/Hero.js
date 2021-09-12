@@ -2,6 +2,7 @@ import React from 'react'
 
 import {
   Section,
+  SectionDivider,
   SectionText,
   SectionTitle
 } from '../../styles/GlobalComponents'
@@ -28,6 +29,7 @@ const Hero = () => (
       >
         Download CV
       </Button>
+      <SectionDivider />
     </LeftSection>
   </Section>
 )
