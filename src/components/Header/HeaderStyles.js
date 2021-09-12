@@ -71,7 +71,7 @@ export const Img = styled.img`
     width: 15%;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 30%;
+    width: 25%;
   }
 `
 export const Span = styled.span`
@@ -97,6 +97,11 @@ export const UlNav = styled.ul`
   @media ${(props) => props.theme.breakpoints.sm} {
     flex-wrap: wrap;
     & li {
+      padding: 0.6rem !important;
+
+      & a {
+        font-size: 1.35rem;
+      }
     }
   }
 `
@@ -163,7 +168,6 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 `
 
 // Social Icons
-
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: white;
@@ -173,9 +177,5 @@ export const SocialIcons = styled.a`
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    transform: scale(0.7);
   }
 `
