@@ -108,7 +108,7 @@ export const UlNav = styled.ul`
 export const NavLink = styled.a`
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.75);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
 
   &:hover {
     cursor: pointer;
