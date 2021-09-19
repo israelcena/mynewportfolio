@@ -71,9 +71,10 @@ const Timeline = () => {
         era o ‘menino da informática). Sou formado em Marketing sendo assim sou
         um profissional 100% especializado em desenvolvimento de produtos e
         soluções. Sou uma pessoa apaixonada por tecnologia desde pequeno.
-        Acredito que com bastante trabalho e fém, tudo pode ser possível.
-        Atualmente trabalho como Freelancer, faço trabalho voluntário, escrevo
-        artigos e dicas no meu blog.
+        Acredito que com bastante trabalho e fé na causa, tudo pode é possível.
+        Atualmente trabalho como desenvolvedor Front-end na agência Ezoom, faço
+        trabalho voluntário como desenvolvedor Full-stack, escrevo artigos e
+        dicas no meu blog.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
