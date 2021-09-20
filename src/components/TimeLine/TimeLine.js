@@ -68,10 +68,11 @@ const Timeline = () => {
       <SectionTitle>Sobre mim</SectionTitle>
       <SectionText>
         Meu nome é Israel e trabalho como desenvolvedor desde 2007 (na época eu
-        era o ‘menino da informática). Sou formado em Marketing sendo assim sou
-        um profissional 100% especializado em desenvolvimento de produtos e
-        soluções. Sou uma pessoa apaixonada por tecnologia desde pequeno.
-        Acredito que com bastante trabalho e fé na causa, tudo pode é possível.
+        era o ‘menino da informática). <br />
+        Sou formado em Marketing sendo assim sou um profissional 100%
+        especializado em desenvolvimento de produtos e soluções. <br />
+        Sou uma pessoa apaixonada por tecnologia desde pequeno. Acredito que com
+        bastante trabalho e fé na causa, tudo é possível. <br />
         Atualmente trabalho como desenvolvedor Front-end na agência Ezoom, faço
         trabalho voluntário como desenvolvedor Full-stack, escrevo artigos e
         dicas no meu blog.
