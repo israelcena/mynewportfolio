@@ -28,8 +28,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>FrontEnd</ListTitle>
           <ListParagraph>
-            Atualmente venho focando em React, trabalhando em conjunto com
-            NextJS.
+            Atualmente estou focando em React, trabalhando com NextJS.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,7 +37,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>BackEnd</ListTitle>
           <ListParagraph>
-            Seguindo a stack do javascript, Node é a minha linguagem backend
+            Seguindo a stack javascript, Node é a minha linguagem backend
             favorita.
           </ListParagraph>
         </ListContainer>

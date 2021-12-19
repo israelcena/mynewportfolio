@@ -73,9 +73,6 @@ const Timeline = () => {
         especializado em desenvolvimento de produtos e soluções. <br />
         Sou uma pessoa apaixonada por tecnologia desde pequeno. Acredito que com
         bastante trabalho e fé na causa, tudo é possível. <br />
-        Atualmente trabalho como desenvolvedor Front-end na agência Ezoom, faço
-        trabalho voluntário como desenvolvedor Full-stack, escrevo artigos e
-        dicas no meu blog.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
