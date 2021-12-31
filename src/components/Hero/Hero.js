@@ -13,13 +13,13 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Olá :-) <br />
+        Olá! 🤓 <br />
         Meu nome é Israel
       </SectionTitle>
       <SectionText>
-        Desenvolvedor desde 2007 <br />
+        Sou Desenvolvedor desde 2007 <br />
         Formado em <strong>Marketing e Sistemas de Informação</strong> <br />
-        Ajudo em projetos Open Source e em Ongs
+        Ajudo em projetos Open Source e em Ongs.
       </SectionText>
       <Button
         onClick={() =>
