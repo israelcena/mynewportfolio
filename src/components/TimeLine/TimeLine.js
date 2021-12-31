@@ -67,12 +67,14 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>Sobre mim</SectionTitle>
       <SectionText>
-        Meu nome é Israel e trabalho como desenvolvedor desde 2007 (na época eu
-        era o ‘menino da informática). <br />
-        Sou formado em Marketing sendo assim sou um profissional 100%
-        especializado em desenvolvimento de produtos e soluções. <br />
+        Sou desenvolvedor desde 2007 (naquela época eu era o "menino da
+        informática..."). <br />
+        Formado em Marketing, assim sou um profissional 100% especializado em
+        desenvolvimento de produtos e soluções voltadas para atender as
+        necessidades do cliente.
+        <br />
         Sou uma pessoa apaixonada por tecnologia desde pequeno. Acredito que com
-        bastante trabalho e fé na causa, tudo é possível. <br />
+        bastante trabalho e fé na causa, tudo é possível! <br />
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
