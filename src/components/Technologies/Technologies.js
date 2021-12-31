@@ -1,5 +1,6 @@
 import React from 'react'
-import { DiIllustrator, DiReact, DiNodejs } from 'react-icons/di'
+import { DiReact, DiNodejs } from 'react-icons/di'
+import { FaNetworkWired } from 'react-icons/fa'
 import {
   Section,
   SectionDivider,
@@ -18,37 +19,45 @@ const Technologies = () => (
   <Section id="tech">
     <br />
     <br />
-    <SectionTitle>Tecnologias</SectionTitle>
+    <SectionTitle>Áreas de Atuação em T.I.</SectionTitle>
     <SectionText>
-      Tecnologias que são as minhas paixões no desenvolvimento Web.
+      Tecnologia sempre esteve em minha vida, desde a minha infância, então me
+      profissionalizei em algumas áreas, entre estas são:
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="6rem" />
+        <DiReact size="10rem" />
         <ListContainer>
-          <ListTitle>FrontEnd</ListTitle>
+          <ListTitle>Dev FrontEnd</ListTitle>
+          <br />
           <ListParagraph>
-            Atualmente estou focando em React, trabalhando com NextJS.
+            Área que tenho mais "gosto" em trabalhar. Atualmente estou focando
+            em React, trabalhando com Next e usando a hospedagem da Vercel.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiNodejs size="6rem" />
+        <DiNodejs size="10rem" />
         <ListContainer>
-          <ListTitle>BackEnd</ListTitle>
+          <ListTitle>Dev BackEnd</ListTitle>
+          <br />
           <ListParagraph>
-            Seguindo a stack javascript, Node é a minha linguagem backend
-            favorita.
+            Node é a minha linguagem backEnd favorita, usando o Express. Tenho
+            também conhecimento em MongoDB. Atualmente estou a trabalhar também
+            com Java usando Spring.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiIllustrator size="6rem" />
+        <FaNetworkWired size="8rem" />
+        <br />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Rede e Hardware</ListTitle>
+          <br />
           <ListParagraph>
-            Prototipação de interface e experiência do usuário é também umas das
-            minhas skills.
+            Também trabalho com a área de suporte técnico a rede local
+            (administrador de redes e servidores Linux) e hardware (também
+            conhecido como montagem e manutenção de micros).
           </ListParagraph>
         </ListContainer>
       </ListItem>
