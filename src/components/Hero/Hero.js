@@ -13,7 +13,7 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Olá! 🤓 <br />
+        Olá! <span className="heroEmoji">🤓</span> <br />
         Meu nome é Israel
       </SectionTitle>
       <SectionText>
