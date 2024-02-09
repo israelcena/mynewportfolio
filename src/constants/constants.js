@@ -53,6 +53,9 @@ export const TimeLineData = [
   { year: 2007, text: 'Comecei com meu primeiro Freela' },
   { year: 2008, text: 'Primeiro emprego como developer' },
   { year: 2013, text: 'Trabalhando como T.I Administrador' },
-  { year: 2018, text: 'Reposicionamento aprendendo novas Tecnologias' },
-  { year: 2021, text: 'FronEnd Developer na agência Ezoom' }
+  { year: 2014, text: 'Trabalhando como PHP4, ASP.net e PostgreSQL' },
+  { year: 2018, text: 'Reposicionamento aprendendo novas Tecnologias (JavaScript / ReactJS)' },
+  { year: 2021, text: 'FrontEnd Developer na agência Ezoom' },
+  { year: 2022, text: 'FullStack Dev Aprendendo Java e Angular Patrocinado pelo Santander na Ada Tech' },
+  { year: 2023, text: 'Analista de desenvolvimento de software na Central IT' },
 ]

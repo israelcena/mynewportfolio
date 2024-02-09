@@ -37,7 +37,7 @@ const Header = () => (
             <div>
               <Span>Israel Cena</Span>
               <span style={{ display: 'block', fontSize: '12px' }}>
-                FrontEnd Dev
+                FullStack Dev
               </span>
             </div>
           </a>
