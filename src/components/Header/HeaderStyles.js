@@ -1,11 +1,9 @@
-import { IoIosArrowDropdown } from 'react-icons/io'
 import styled from 'styled-components'
 
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 1rem;
   align-items: center;
   margin-bottom: -4rem;
   padding-top: 2rem;
@@ -23,6 +21,7 @@ export const Container = styled.div`
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 1 / 2;
+
   @media ${(props) => props.theme.breakpoints.md} {
     grid-area: 1 / 1 / 1 / 6;
   }
@@ -48,6 +47,7 @@ export const Div2 = styled.div`
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 1 / 6;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.md} {
@@ -66,7 +66,8 @@ export const Img = styled.img`
   width: 50%;
   border-radius: 50%;
   object-fit: contain;
-  margin-right: 1rem;
+  margin: -1rem -2rem .5rem 0;
+  float: right;
   @media ${(props) => props.theme.breakpoints.md} {
     width: 15%;
   }
@@ -75,7 +76,21 @@ export const Img = styled.img`
   }
 `
 export const Span = styled.span`
+  font-size: 2.8rem;
+  display: block;
+  float: right;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    float: none;
+  }
+`
+
+export const Span2 = styled.span`
   font-size: 1.8rem;
+  float: right;
+  @media ${(props) => props.theme.breakpoints.md} {
+    float: none;
+  }
 `
 
 // Navigation Links
@@ -83,7 +98,7 @@ export const UlNav = styled.ul`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 10rem;
+  padding: 0 12rem;
   flex-wrap: nowrap;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -105,7 +120,7 @@ export const UlNav = styled.ul`
   }
 `
 
-export const NavLink = styled.a`
+export const NavLink = styled.span`
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.75);
   transition: all 0.3s ease;
@@ -148,33 +163,13 @@ export const ContactDropDown = styled.button`
   }
 `
 
-export const NavProductsIcon = styled(IoIosArrowDropdown)`
-  margin-left: 8px;
-  display: flex;
-  align-self: center;
-  transition: 0.3s ease;
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};
-  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
-
-  &:hover {
-    opacity: 1;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin: 2px 0 0 2px;
-    width: 15px;
-  }
-`
-
 // Social Icons
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: white;
   border-radius: 50px;
-  padding: 8px;
   &:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
   }
 `

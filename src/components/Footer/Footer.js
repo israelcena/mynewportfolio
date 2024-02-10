@@ -38,7 +38,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            Israel Cena - Programador FrontEnd do Rio de Janeiro - Brasil
+            Israel Cena - Programador FullStack - Brasil
           </Slogan>
         </CompanyContainer>
         <SocialContainer>

@@ -10,6 +10,7 @@ import {
 import {
   Container,
   Span,
+  Span2,
   Div1,
   Div2,
   Div3,
@@ -25,22 +26,9 @@ const Header = () => (
     <Container>
       <Div1>
         <Link href="/">
-          <a
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: 'white'
-            }}
-          >
-            <Img src={Images[0].image} />
-            <div>
-              <Span>Israel Cena</Span>
-              <span style={{ display: 'block', fontSize: '12px' }}>
-                FrontEnd Dev
-              </span>
-            </div>
-          </a>
+          <Img src={Images[0].image} />
+          <Span>Israel Cena</Span>
+          <Span2>FullStack Dev</Span2>
         </Link>
       </Div1>
       <Div2>
@@ -52,9 +40,11 @@ const Header = () => (
               borderRadius: '.7rem'
             }}
           >
-            <a target="_blank" href="http://blog.israelcena.com.br/">
-              <NavLink>Blog</NavLink>
-            </a>
+            <NavLink>
+              <a target="_blank" href="http://blog.israelcena.com.br/">
+                Blog
+              </a>
+            </NavLink>
           </li>
           <li>
             <Link href="#projects">
@@ -80,15 +70,15 @@ const Header = () => (
         <SocialIcons target="_blank" href="https://linkedin.com/in/israelcena">
           <AiFillLinkedin size="4rem" />
         </SocialIcons>
-        <SocialIcons target="_blank" href="https://twitter.com/israelcena">
+        {/* <SocialIcons target="_blank" href="https://twitter.com/israelcena">
           <AiFillTwitterCircle size="4rem" />
-        </SocialIcons>
+        </SocialIcons> */}
         <SocialIcons target="_blank" href="https://youtube.com/israelcena">
           <AiFillYoutube size="4rem" />
         </SocialIcons>
-        <SocialIcons target="_blank" href="https://instagram.com/israelcena">
+        {/* <SocialIcons target="_blank" href="https://instagram.com/israelcena">
           <AiFillInstagram size="4rem" />
-        </SocialIcons>
+        </SocialIcons> */}
       </Div3>
     </Container>
   </div>
