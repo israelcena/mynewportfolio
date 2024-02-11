@@ -2,9 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import {
   AiFillGithub,
-  AiFillInstagram,
   AiFillLinkedin,
-  AiFillTwitterCircle,
   AiFillYoutube
 } from 'react-icons/ai'
 import {
@@ -53,7 +51,7 @@ const Header = () => (
           </li>
           <li>
             <Link href="#tech">
-              <NavLink>Tecnologias</NavLink>
+              <NavLink>Áreas</NavLink>
             </Link>
           </li>
           <li>
@@ -70,15 +68,9 @@ const Header = () => (
         <SocialIcons target="_blank" href="https://linkedin.com/in/israelcena">
           <AiFillLinkedin size="4rem" />
         </SocialIcons>
-        {/* <SocialIcons target="_blank" href="https://twitter.com/israelcena">
-          <AiFillTwitterCircle size="4rem" />
-        </SocialIcons> */}
         <SocialIcons target="_blank" href="https://youtube.com/israelcena">
           <AiFillYoutube size="4rem" />
         </SocialIcons>
-        {/* <SocialIcons target="_blank" href="https://instagram.com/israelcena">
-          <AiFillInstagram size="4rem" />
-        </SocialIcons> */}
       </Div3>
     </Container>
   </div>
