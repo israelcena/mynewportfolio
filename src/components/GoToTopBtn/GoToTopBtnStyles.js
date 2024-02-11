@@ -4,12 +4,13 @@ export const GoToTopBtnEl = styled.a`
   position: fixed;
   top: 85%;
   left: 88vw;
-  height: 7vh;
   visibility: ${({ showBtn }) => (showBtn ? 'visible' : 'hidden')};
   opacity: ${({ showBtn }) => (showBtn ? '1' : '0')};
   transition: opacity .8s ease;
+  &:focus {
+    background: transparent;
+  }
   & > svg {
-    /* color: red; */
     width: 200%;
     height: auto;
   }
