@@ -2,6 +2,7 @@ import React from 'react'
 
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
+import GoToTopBtn from '../components/GoToTopBtn/GoToTopBtn'
 import { Container } from './LayoutStyles'
 
 export const Layout = ({ children }) => {
@@ -9,6 +10,7 @@ export const Layout = ({ children }) => {
     <Container>
       <Header />
       <main>{children}</main>
+      <GoToTopBtn/>
       <Footer />
     </Container>
   )
