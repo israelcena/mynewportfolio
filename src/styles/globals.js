@@ -30,7 +30,12 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
-
+  
+.ext-Link {
+  text-decoration: underline;
+  font-weight: 500;
+  font-style: italic;
+}
 `
 
 export default GlobalStyles

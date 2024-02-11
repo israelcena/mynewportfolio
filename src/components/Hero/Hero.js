@@ -13,12 +13,13 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Olá! <span className="heroEmoji">🤓</span> <br />
-        Meu nome é Israel
+        Prazer, Israel <br />
+        Maicena Neves
       </SectionTitle>
       <SectionText>
         Sou Desenvolvedor desde 2007 <br />
-        Formado em <strong>Marketing e Sistemas de Informação</strong> <br />
+        Formado em <strong>Marketing e Sistemas de Informação</strong>, atualmente sou desenvolvedor de software na <a 
+        href='https://centralit.com.br/' target='_blank' className='ext-Link'>CentralIT</a><br />
         Ajudo em projetos Open Source e em Ongs.
       </SectionText>
       <Button
