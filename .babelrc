@@ -1,6 +1,18 @@
 {
   "presets": ["next/babel"],
-  "plugins": [["styled-components", { "ssr": true }]],
+  "plugins": [
+    ["styled-components", { "ssr": true }]
+  ],
+  "overrides": [
+    {
+      "test": ["./node_modules"],
+      "plugins": [["styled-components", { "ssr": false }]]
+    }
+  ],
+  "sourceMaps": true,
+  "retainLines": true,
+  "compact": false,
+  "comments": true,
   "experimental": {
     "forceSwcTransforms": true
   }
