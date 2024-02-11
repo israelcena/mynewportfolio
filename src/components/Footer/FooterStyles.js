@@ -48,13 +48,7 @@ export const SocialIconsContainer = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  @media ${(props) => props.theme.breakpoints.md} {
-    display: flex;
-    justify-content: space-between;
-  }
-
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
     width: 100%;
     flex-direction: column;
   }
@@ -101,10 +95,10 @@ export const Slogan = styled.p`
 export const SocialContainer = styled.div`
   display: flex;
   align-items: center;
+  gap: 1.5rem;
 
   @media ${(props) => props.theme.breakpoints.md} {
     justify-content: center;
-    padding-right: 16px;
     flex-wrap: wrap;
   }
 `

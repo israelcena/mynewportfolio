@@ -26,6 +26,7 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 1 / 6;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
+    margin-left: 10vw;
     & a {
       align-self: center;
     }
@@ -48,8 +49,10 @@ export const Div3 = styled.div`
   grid-area: 1 / 5 / 1 / 6;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2rem;
   align-items: center;
+
   @media ${(props) => props.theme.breakpoints.md} {
     align-items: center;
     margin-top: 3rem;
@@ -66,22 +69,25 @@ export const Img = styled.img`
   width: 50%;
   border-radius: 50%;
   object-fit: contain;
-  margin: -1rem -2rem .5rem 0;
+  margin: -1rem -2rem 0.5rem 0;
   float: right;
   @media ${(props) => props.theme.breakpoints.md} {
     width: 15%;
   }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 25%;
+    margin: 0 2rem 0 2rem;
+    float: inline-start;
   }
 `
 export const Span = styled.span`
   font-size: 2.8rem;
   display: block;
   float: right;
-
   @media ${(props) => props.theme.breakpoints.md} {
     float: none;
+    margin-top: 2.5rem;
   }
 `
 
@@ -109,12 +115,12 @@ export const UlNav = styled.ul`
     }
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    flex-wrap: wrap;
+    flex-wrap: initial;
     & li {
       padding: 0.6rem !important;
       background-color: #3498db;
       & a {
-        font-size: 1.35rem;
+        font-size: 1.5rem;
       }
     }
   }
@@ -124,13 +130,13 @@ export const NavLink = styled.span`
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.75);
   transition: all 0.3s ease;
-
   &:hover {
     cursor: pointer;
     color: white;
     font-size: 2.1rem;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: inherit;
     padding: 0.5rem;
   }
 `
