@@ -7,11 +7,11 @@ export default function GoToTopBtn(props) {
   const handleScroll = useCallback(() => {
     const clientHeight = window.document.documentElement.clientHeight * 0.65
     if (window.scrollY >= clientHeight) {
-      setShowBtn(true);
+      setShowBtn(true)
       return
     }
-    setShowBtn(false);
-  }, []);
+    setShowBtn(false)
+  }, [])
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)

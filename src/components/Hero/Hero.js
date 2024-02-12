@@ -19,7 +19,7 @@ const Hero = () => (
       <SectionText>
         Sou Desenvolvedor desde 2007 <br />
         Formado em <strong>Marketing e Sistemas de Informação</strong>, atualmente sou desenvolvedor de software na <a 
-        href='https://centralit.com.br/' target='_blank' className='ext-Link'>CentralIT</a><br />
+          href='https://centralit.com.br/' target='_blank' className='ext-Link'>CentralIT</a><br />
         Ajudo em projetos Open Source e em Ongs.
       </SectionText>
       <Button
