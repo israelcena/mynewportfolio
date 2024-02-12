@@ -31,7 +31,7 @@ const Technologies = () => (
           <ListTitle>Dev FrontEnd</ListTitle>
           <br />
           <ListParagraph>
-            Área que tenho mais "gosto" em trabalhar. Atualmente estou focando
+            Área que fico à vontade em trabalhar. Atualmente estou focando
             em React, trabalhando com Next e usando a hospedagem da Vercel.
           </ListParagraph>
         </ListContainer>

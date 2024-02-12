@@ -62,7 +62,7 @@ const Timeline = () => {
 
     window.addEventListener('resize', handleResize)
   }, [])
-
+  /* eslint-disable */
   return (
     <Section id="about">
       <SectionTitle>Sobre mim</SectionTitle>
@@ -76,42 +76,51 @@ const Timeline = () => {
           href="https://centralit.com.br/"
           target="_blank"
           className="ext-Link"
-        >Central IT</a>, projeto, desenvolvo e mantenho sistemas automatizados,
-        utilizando tecnologias com automação de processos e inteligência
-        artificial para otimizar operações comerciais em um ambiente digital.
-        Minha trajetória inclui mais de uma década como Especialista em
-        Tecnologia da Informação na <a
+        >
+          Central IT
+        </a>
+        , projeto, desenvolvo e mantenho sistemas automatizados, utilizando
+        tecnologias com automação de processos e inteligência artificial para
+        otimizar operações comerciais em um ambiente digital. Minha trajetória
+        inclui mais de uma década como Especialista em Tecnologia da Informação
+        na{' '}
+        <a
           href="https://www.marinha.mil.br/"
           target="_blank"
           className="ext-Link"
-        >Marinha do Brasil</a>, cuidando de aplicativos
-        web e servidores. Como Frontend Web Developer na <a
-          href="https://ezoom.com.br/"
-          target="_blank"
-          className="ext-Link"
-        >Ezoom</a>, trabalhei com
-        tecnologias como HTML, CSS, SCSS, JavaScript, React.JS e NextJS.
-        Contribuí internacionalmente como Especialista em Tecnologia da
-        Informação na <a
-          href="https://www.un.org/"
-          target="_blank"
-          className="ext-Link"
-        >Organização das Nações Unidas (ONU)</a>, participando da
-        missão UNIFIL no Líbano. Na <a
+        >
+          Marinha do Brasil
+        </a>
+        , cuidando de aplicativos web e servidores. Como Frontend Web Developer
+        na{' '}
+        <a href="https://ezoom.com.br/" target="_blank" className="ext-Link">
+          Ezoom
+        </a>
+        , trabalhei com tecnologias como HTML, CSS, SCSS, JavaScript, React.JS e
+        NextJS. Contribuí internacionalmente como Especialista em Tecnologia da
+        Informação na{' '}
+        <a href="https://www.un.org/" target="_blank" className="ext-Link">
+          Organização das Nações Unidas (ONU)
+        </a>
+        , participando da missão UNIFIL no Líbano. Na{' '}
+        <a
           href="https://www.easyforyou.com.br/"
           target="_blank"
           className="ext-Link"
-        >Assessoria escolar EasyForYou (EZ4U)</a>, fui professor de TI, proporcionando
-        educação tecnológica. Iniciei minha carreira no <a
-          href="https://ppa.com.br/"
-          target="_blank"
-          className="ext-Link"
-        >PPA</a>, onde por 2 anos e 9
-        meses, lidei com atividades gerais de Tecnologia da Informação. Essa jornada me tornou um
-        profissional versátil, apaixonado por desafios e comprometido em
-        oferecer soluções de qualidade. Acredito que, com trabalho árduo e fé,
-        tudo é possível.
+        >
+          Assessoria escolar EasyForYou (EZ4U)
+        </a>
+        , fui professor de TI, proporcionando educação tecnológica. Iniciei
+        minha carreira no{' '}
+        <a href="https://ppa.com.br/" target="_blank" className="ext-Link">
+          PPA
+        </a>
+        , onde por 2 anos e 9 meses, lidei com atividades gerais de Tecnologia
+        da Informação. Essa jornada me tornou um profissional versátil,
+        apaixonado por desafios e comprometido em oferecer soluções de
+        qualidade. Acredito que, com trabalho árduo e fé, tudo é possível.
       </SectionText>
+      /* eslint-enable */
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

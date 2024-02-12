@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default {
   // Temp fonts
   fonts: {
@@ -20,7 +21,7 @@ export default {
     xl: 'screen and (max-width: 1280px)'
   }
 }
-
+/* eslint-enable */
 /*
 default colors:
 primary: #3C5186
