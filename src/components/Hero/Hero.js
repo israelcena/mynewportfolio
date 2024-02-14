@@ -25,7 +25,7 @@ const Hero = () => (
       <Button
         onClick={() =>
           (window.location =
-            'https://github.com/israelcena/mynewportfolio/raw/main/Israel%20Maicena%20Neves.pdf')
+            'https://israelcena.com.br/israelcv.pdf')
         }
       >
         Download CV
