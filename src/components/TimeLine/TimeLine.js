@@ -120,7 +120,7 @@ const Timeline = () => {
         apaixonado por desafios e comprometido em oferecer soluções de
         qualidade. Acredito que, com trabalho árduo e fé, tudo é possível.
       </SectionText>
-      /* eslint-enable */
+      
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -191,6 +191,7 @@ const Timeline = () => {
       <SectionDivider />
     </Section>
   )
+  /* eslint-enable */
 }
 
 export default Timeline
