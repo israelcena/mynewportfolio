@@ -26,7 +26,7 @@ const Header = () => (
         <Link href="/">
           <Img src={Images[0].image} />
           <Span>Israel Cena</Span>
-          <Span2>FullStack Dev</Span2>
+          <Span2>FullStack Developer</Span2>
         </Link>
       </Div1>
       <Div2>
