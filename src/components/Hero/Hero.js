@@ -13,13 +13,11 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Prazer, Israel <br />
-        Maicena Neves
+        Prazer! Israel<br />
       </SectionTitle>
       <SectionText>
-        Sou Desenvolvedor desde 2007 <br />
-        Formado em <strong>Marketing e Sistemas de Informação</strong>, atualmente sou desenvolvedor de software na <a 
-          href='https://centralit.com.br/' target='_blank' className='ext-Link'>CentralIT</a><br />
+        Sou Desenvolvedor de software desde 2007, formado em <strong>Marketing e Sistemas de Informação</strong>. 
+        Atualmente, desenvolvedor de software na <a href='https://centralit.com.br/' target='_blank' className='ext-Link'>CentralIT</a>.
         Ajudo em projetos Open Source e em Ongs.
       </SectionText>
       <Button

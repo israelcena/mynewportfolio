@@ -70,7 +70,7 @@ const Timeline = () => {
         Desenvolvedor desde 2007, naquela época, eu era o "menino da
         informática". Hoje sou formado em Marketing e Sistemas de Informação,
         tornei-me um especialista em desenvolver produtos e soluções para
-        atender às necessidades dos clientes. Atualmente, como Analista de
+        clientes. Atualmente, como Analista de
         Desenvolvimento de Software na{' '}
         <a
           href="https://centralit.com.br/"
@@ -78,26 +78,21 @@ const Timeline = () => {
           className="ext-Link"
         >
           Central IT
-        </a>
-        , projeto, desenvolvo e mantenho sistemas automatizados, utilizando
-        tecnologias com automação de processos e inteligência artificial para
-        otimizar operações comerciais em um ambiente digital. Minha trajetória
-        inclui mais de uma década como Especialista em Tecnologia da Informação
-        na{' '}
+        </a>, projeto, desenvolvo e mantenho sistemas automatizados (automação de processos) 
+        ambiente digital. Minha trajetória inclui mais de uma década como Especialista em 
+        Tecnologia da Informação na{' '}
         <a
           href="https://www.marinha.mil.br/"
           target="_blank"
           className="ext-Link"
         >
           Marinha do Brasil
-        </a>
-        , cuidando de aplicativos web e servidores. Como Frontend Web Developer
-        na{' '}
+        </a>, cuidando de aplicativos web (Intranet) e servidores físicos locais. 
+        Como Frontend Web Developer na{' '}
         <a href="https://ezoom.com.br/" target="_blank" className="ext-Link">
           Ezoom
-        </a>
-        , trabalhei com tecnologias como HTML, CSS, SCSS, JavaScript, React.JS e
-        NextJS. Contribuí internacionalmente como Especialista em Tecnologia da
+        </a>, trabalhei com tecnologias como HTML, CSS, SCSS, JavaScript, React e
+        NextJS. Também Contribuí internacionalmente como Especialista em Tecnologia da
         Informação na{' '}
         <a href="https://www.un.org/" target="_blank" className="ext-Link">
           Organização das Nações Unidas (ONU)
@@ -110,15 +105,14 @@ const Timeline = () => {
         >
           Assessoria escolar EasyForYou (EZ4U)
         </a>
-        , fui professor de TI, proporcionando educação tecnológica. Iniciei
+        , fui professor de TI, proporcionando educação na área tecnológica. Iniciei
         minha carreira no{' '}
         <a href="https://ppa.com.br/" target="_blank" className="ext-Link">
           PPA
-        </a>
-        , onde por 2 anos e 9 meses, lidei com atividades gerais de Tecnologia
+        </a>, onde por 2 anos e 9 meses, lidei com atividades gerais de Tecnologia
         da Informação. Essa jornada me tornou um profissional versátil,
         apaixonado por desafios e comprometido em oferecer soluções de
-        qualidade. Acredito que, com trabalho árduo e fé, tudo é possível.
+        qualidade.
       </SectionText>
       
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
