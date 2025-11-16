@@ -7,6 +7,68 @@ export const Img = styled.img`
   margin-bottom: 2rem;
 `
 
+export const SwiperContainer = styled.div`
+  padding: 3rem 5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  .swiper {
+    padding-bottom: 4rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #d0bb57;
+    &:after {
+      font-size: 2.5rem;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    background: #9cc9e3;
+    width: 12px;
+    height: 12px;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #d0bb57;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 2rem 3rem;
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      &:after {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 2rem 1rem;
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+  }
+`
+
+export const LoadingContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 3rem;
+`
+
+export const LoadingText = styled.p`
+  font-size: 2rem;
+  color: #9cc9e3;
+  text-align: center;
+`
+
 export const GridContainer = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
