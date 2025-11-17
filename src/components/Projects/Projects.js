@@ -94,26 +94,28 @@ const Projects = () => {
       <SwiperContainer>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={30}
+          spaceBetween={20}
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,
+            pauseOnMouseEnter: true,
           }}
+          loop={projects.length > 3}
           breakpoints={{
             640: {
               slidesPerView: 1,
               spaceBetween: 20,
             },
-            768: {
+            900: {
               slidesPerView: 2,
-              spaceBetween: 30,
+              spaceBetween: 20,
             },
-            1024: {
+            1200: {
               slidesPerView: 3,
-              spaceBetween: 30,
+              spaceBetween: 25,
             },
           }}
         >
